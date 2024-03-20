@@ -50,5 +50,5 @@ while True:
         print("The dragon strikes back with 20 damage")
         print("Character health: " + str(my_hp))
         if my_hp <= 0:
-            print("The character is dead")
+            print(character + "lost the battle")
             break
